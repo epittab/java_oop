@@ -1,4 +1,4 @@
-package OOP.Toy;
+package com.OOP.Toy;
 
 public class Toy {
     public static void main(String[] args){
