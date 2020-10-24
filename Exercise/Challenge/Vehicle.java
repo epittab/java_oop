@@ -2,28 +2,21 @@ package com.OOP.Exercise.Challenge;
 
 public class Vehicle {
     
-    private int gear;
-    private int doors;
 
+    private int speed;
 
-
-    public Vehicle (int doors) {
+    public Vehicle () {
         //constructor
-        this.gear = 1;
-        this.doors = doors;
+       this.speed = 0;
     }
     public void steer(){        
         // instance method
-
-    }
-    
-    public void changeGear(){        
-        // instance method
-        
+        System.out.println("You turned.");
     }
     
     public void move(int speed){        
         // instance method
-
+        this.speed += speed;
+        System.out.println("You are going at " + this.speed + " velocity.");
     }
 }
